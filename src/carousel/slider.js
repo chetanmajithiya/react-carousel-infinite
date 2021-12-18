@@ -27,7 +27,7 @@ import './style.css';
 
 const extractObject = (spec, keys) => {
   const newObject = {};
-  for(let i = 0; i < keys.length; i += 1) {
+  for (let i = 0; i < keys.length; i += 1) {
     const key = keys[i];
     newObject[key] = spec[key];
   }
